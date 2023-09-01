@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{background-color: rgb(240, 0, 180);
+    background-size: cover;
+}
+.logoprincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgb(233, 13, 159);
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
+
+section{
+    background-image: url(../assets/img/FONDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionUnica{
+    text-align: center;
+}
+.sectionUnica h1{
+    color: rgb(235, 9, 167);
+    text-align: center;
+    font-size: 60px;
+}
+.sectionUn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-left: 140px;
+}
+
+.sectionDos{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+footer{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 7.5rem;
+}
+
+.footerflex{
+    margin-top: 20px;
+}
+.redesfooter{
+    display: flex;
+    margin-top: 50px;
+    gap: 5px;
+}
+
+
+body{
+    position: relative;
+}
+@media (max-width: 720px){
+    .logoprincipal{
+
+    }
+}
+
+@media (max-width: 425px){
+    .sectionDos{
+        grid-template-columns: repeat(3,auto);
+    }
+        
+    }
+}
+
+/*INTENTE COLOCAR TODA LA PAGINA DE INDEX Y PESTA;AS DE FORMA RESPONSIVE PERO NO LOGRE HACERLO CON TODOS LOS ELEMENTOS DE VERDAD ME BLOQUEE
+
+/* para asubir al git
+/*git init 
+
+git add . 
+
+git commit -m "comentario que quieras" 
+
+git remote add origin https://github….
+
+git branch -M main
+
+git push -u origin main /
